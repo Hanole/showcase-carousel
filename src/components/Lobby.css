@@ -1,0 +1,41 @@
+* {
+      --primary-color: #40309b;  
+}
+
+
+.lobby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    margin: auto;
+    padding: 2rem;
+    backdrop-filter: blur(8px) saturate(180%);
+    -webkit-backdrop-filter: blur(8px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.5);
+    gap: 1rem;
+}
+
+.create-lobby {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.create-lobby input {
+    border: 0;
+    border-radius: 8px;
+    outline: 2px solid #FEBF00;
+    padding: 0.5rem;
+    background-color: #263360;
+    outline-offset: 2px;
+    transition: 0.25s;
+    color: #fff;
+}
+
+.create-lobby input:focus {
+    outline-offset: 4px;
+    background-color: #ffffff;
+    color: black;
+}
