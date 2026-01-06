@@ -1,16 +1,27 @@
-# React + Vite
+# Showcase Carousel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Et lite hobbyprosjekt der du kan lage en spill-lobby basert på RAWG-collections, invitere vennenr og stemme frem hvilket spill dere skal spille. 
 
-Currently, two official plugins are available:
+## Hva gjør appen?
+- Lobby oppretter limer inn **slug** for en RAWG-collection + sitt eget navn.
+- Appen henter spillene i den collectionen og viser dem i en karusell/oversikt.
+- Det genereres en **lenke til lobbyen** som kan deles med venner.
+- Venner som åpner lenken kan joine lobbyen og **stemme på spillene**.
+- Lobby-eier og venner ser stemmmene og kan bli enige om hvilket spill dere skal spille.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> En *slug* er navnet til en collection tilpasset bruk i URL, altså vanligvis med små bokstaver og bindestreker.
 
-## React Compiler
+## Teknologi
+- React
+- Vite
+- Supabase via @supabase/supabase-js som backend-klient
+- ESLint for kvalitetssikring
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Forutsetninnger
+- Node.js og npm for å kjøre lokalt.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Installering
+  ´git clone https://github.com/Hanole/showcase-carousel.git
+  cd showcase-carousel
+  npm install
+  npm run dev´
