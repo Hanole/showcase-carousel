@@ -3,7 +3,7 @@
 Et lite hobbyprosjekt der du kan lage en spill-lobby basert på RAWG-collections, invitere vennenr og stemme frem hvilket spill dere skal spille. 
 
 ## Hva gjør appen?
-- Lobby oppretter limer inn **slug** for en RAWG-collection + sitt eget navn.
+- Lobby-oppretteren limer inn **slug** for en RAWG-collection + sitt eget navn.
 - Appen henter spillene i den collectionen og viser dem i en karusell/oversikt.
 - Det genereres en **lenke til lobbyen** som kan deles med venner.
 - Venner som åpner lenken kan joine lobbyen og **stemme på spillene**.
